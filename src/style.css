@@ -1,5 +1,3 @@
-
-
 /*  SECTIONS */ 
 
 /* .aside{
@@ -26,7 +24,6 @@
 .groupAside:after { clear:both;}
 .groupAside { zoom:1; /* For IE 6/7 */ }
 /*  GRID OF TWO  
-
 /*  GRID OF TWO  */
 .span_2_of_2Aside {
 	width: 100%;
@@ -489,6 +486,7 @@ th {
         justify-content: space-between;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        padding-left: 20%;
 }
 
 .nav-brand {
@@ -588,7 +586,15 @@ th {
     width: 30px;
     height: 30px;
 }
-
+@media (max-width: 700px){
+    
+.site-main {
+    margin-bottom: 3rem;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 5%;
+}
+}
 @media (min-width: 768px) {
     .header1{
         display:none;
@@ -665,7 +671,7 @@ th {
 
 .site-main {
     margin-bottom: 3rem;
-    padding-left: 5%;
+    padding-left: 0%;
     padding-right: 0%;
     padding-top: 5%;
 }
@@ -676,6 +682,13 @@ th {
 
 @media (min-width: 768px) {
 
+    .site-main {
+        margin-bottom: 3rem;
+        padding-left: 5%;
+        padding-right: 0%;
+        padding-top: 5%;
+      
+    }
     .page-title {
         text-align: center;
     }
