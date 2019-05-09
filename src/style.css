@@ -408,8 +408,9 @@ th {
 --------------------------------*/
 
 .site-header {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    width:100%;
 }
 
 .main-navigation {
@@ -512,7 +513,26 @@ th {
     width: 30px;
     height: 30px;
 }
-
+@media (max-width: 767px){
+     .menu-toggle{
+        align-items: flex-end;
+        display: block;
+        margin-left: 130%;
+        margin-top: -32%;
+       
+    }
+    
+    .sticky{
+        margin-top: 0%;
+        position: fixed;
+        top: -18%;
+        width: 100;
+        background:white;
+    }
+    .container-xl{
+        margin-top:30%;
+    }
+}
 @media (min-width: 768px) {
 
     .menu-toggle {
@@ -670,6 +690,7 @@ th {
 }
 
 /* ----- Pagination ----- */
+
 
 .pagination {
     display: -ms-flexbox;
