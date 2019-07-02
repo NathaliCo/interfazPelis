@@ -13,6 +13,7 @@ Table of Contents
 # Footer
 */
 
+
 /*--------------------------------
 # Base
 --------------------------------*/
@@ -31,14 +32,12 @@ html {
 }
 
 @media (min-width: 768px) {
-
     html {
         font-size: 1.125rem;
     }
 }
 
 @media (min-width: 992px) {
-
     html {
         font-size: 1.25rem;
     }
@@ -55,7 +54,12 @@ body {
     outline: 0 !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #202223;
     font-family: inherit;
     font-weight: normal;
@@ -64,17 +68,29 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.75rem;
 }
 
-h1 { font-size: 2.5rem; }
+h1 {
+    font-size: 2.5rem;
+}
 
-h2 { font-size: 2rem; }
+h2 {
+    font-size: 2rem;
+}
 
-h3 { font-size: 1.5rem; }
+h3 {
+    font-size: 1.5rem;
+}
 
-h4 { font-size: 1.25rem; }
+h4 {
+    font-size: 1.25rem;
+}
 
-h5 { font-size: 1.15rem; }
+h5 {
+    font-size: 1.15rem;
+}
 
-h6 { font-size: 1rem; }
+h6 {
+    font-size: 1rem;
+}
 
 p {
     margin-top: 0;
@@ -86,23 +102,29 @@ a {
     transition: color 0.3s ease-out;
 }
 
-a:hover, a:focus, a:active {
+a:hover,
+a:focus,
+a:active {
     color: #202223;
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
     outline: 0;
 }
 
-ul, ol {
+ul,
+ol {
     margin: 0 0 1.5rem 1.5rem;
     padding-left: 1rem;
 }
 
-li { margin-bottom: 0.5rem; }
+li {
+    margin-bottom: 0.5rem;
+}
 
-li > ul,
-li > ol {
+li>ul,
+li>ol {
     margin-top: 0.5rem;
     margin-bottom: 0;
 }
@@ -112,16 +134,22 @@ dl {
     padding-left: 1rem;
 }
 
-dt { font-weight: bold; }
+dt {
+    font-weight: bold;
+}
 
-dd { margin: 0 1.5rem 1.5rem 0; }
+dd {
+    margin: 0 1.5rem 1.5rem 0;
+}
 
 abbr {
     border-bottom: 1px dotted #495057;
     cursor: help;
 }
 
-abbr[title] { text-decoration: none; }
+abbr[title] {
+    text-decoration: none;
+}
 
 address {
     font-style: normal;
@@ -130,7 +158,9 @@ address {
 }
 
 blockquote,
-q { quotes: "\201C" "\201D"; }
+q {
+    quotes: "\201C" "\201D";
+}
 
 blockquote {
     color: #495057;
@@ -138,14 +168,22 @@ blockquote {
     margin: 1.5rem 0 1.5rem 1.5rem;
 }
 
-blockquote cite { font-size: 1rem; }
+blockquote cite {
+    font-size: 1rem;
+}
 
-blockquote cite::before { content: "â€” "; }
+blockquote cite::before {
+    content: "â€” ";
+}
 
 dfn,
-em { font-style: italic; }
+em {
+    font-style: italic;
+}
 
-strong { font-weight: bolder; }
+strong {
+    font-weight: bolder;
+}
 
 code,
 kbd,
@@ -171,7 +209,9 @@ ins {
     text-decoration: none;
 }
 
-small { font-size: .875rem; }
+small {
+    font-size: .875rem;
+}
 
 hr {
     background-color: #e5e5e5;
@@ -196,18 +236,21 @@ img {
     vertical-align: middle;
 }
 
-img + figcaption {
+img+figcaption {
     font-style: italic;
     text-align: center;
 }
 
-figure { margin: 0 0 1.75rem; }
+figure {
+    margin: 0 0 1.75rem;
+}
 
 figcaption {
     font-size: .875rem;
     line-height: 1.5rem;
     padding: 0.5rem 0;
 }
+
 
 /*--------------------------------
 # Layout
@@ -221,30 +264,42 @@ figcaption {
     padding-right: 1.25rem;
 }
 
-.container-md { max-width: 768px; }
+.container-md {
+    max-width: 768px;
+}
 
-.container-xl { max-width: 1200px; }
+.container-xl {
+    max-width: 1200px;
+}
 
 .grid {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -ms-flex-pack: justify;
-        justify-content: space-between;
+    justify-content: space-between;
 }
 
-.col { -ms-flex-preferred-size: 100%; flex-basis: 100%; }
+.col {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+}
 
 @media (min-width: 576px) {
-
-    .col { -ms-flex-preferred-size: 48%; flex-basis: 48%; }
+    .col {
+        -ms-flex-preferred-size: 48%;
+        flex-basis: 48%;
+    }
 }
 
 @media (min-width: 768px) {
-
-    .col { -ms-flex-preferred-size: 31.5%; flex-basis: 31.5%; }
+    .col {
+        -ms-flex-preferred-size: 31.5%;
+        flex-basis: 31.5%;
+    }
 }
+
 
 /*--------------------------------
 # Buttons
@@ -277,6 +332,7 @@ figcaption {
     background-color: #1565c0;
     color: #fff;
 }
+
 
 /*--------------------------------
 # Forms
@@ -332,6 +388,7 @@ textarea {
     outline: 0;
 }
 
+
 /*--------------------------------
 # Tables
 --------------------------------*/
@@ -372,6 +429,7 @@ th {
     overflow-x: auto;
 }
 
+
 /*--------------------------------
 # Utilities
 --------------------------------*/
@@ -403,6 +461,7 @@ th {
     z-index: 100000;
 }
 
+
 /*--------------------------------
 # Header
 --------------------------------*/
@@ -410,18 +469,18 @@ th {
 .site-header {
     padding-top: 2rem;
     padding-bottom: 1rem;
-    width:100%;
+    width: 100%;
 }
 
 .main-navigation {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
-        align-items: center;
+    align-items: center;
     -ms-flex-pack: justify;
-        justify-content: space-between;
+    justify-content: space-between;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .nav-brand {
@@ -438,7 +497,7 @@ th {
 .nav-brand:hover,
 .nav-brand:focus {
     color: inherit;
-    opacity: 0.8;
+    /* opacity: 0.8; */
 }
 
 .site-logo {
@@ -458,7 +517,7 @@ th {
     display: inline-block;
 }
 
-.lang .lang-item + li::before {
+.lang .lang-item+li::before {
     color: #adb5bd;
     content: "/";
 }
@@ -475,7 +534,7 @@ th {
 .nav {
     display: none;
     -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+    flex-basis: 100%;
     list-style: none;
     margin: 1rem 0;
     padding-left: 0;
@@ -513,64 +572,58 @@ th {
     width: 30px;
     height: 30px;
 }
-@media (max-width: 767px){
-     .menu-toggle{
+
+@media (max-width: 767px) {
+    .menu-toggle {
         align-items: flex-end;
         display: block;
         margin-left: 130%;
         margin-top: -32%;
-       
     }
-    
-    .sticky{
+    .sticky {
         margin-top: 0%;
         position: fixed;
         top: -18%;
         width: 100;
-        background:white;
+        background: white;
     }
-    .container-xl{
-        margin-top:30%;
+    .container-xl {
+        margin-top: 30%;
     }
 }
-@media (min-width: 768px) {
 
+@media (min-width: 768px) {
     .menu-toggle {
         display: none;
     }
-
-   .site-content {
-       width: 70%;
-   }
-
+    .site-content {
+        width: 70%;
+    }
     .nav {
         display: block;
         -ms-flex-preferred-size: auto;
-            flex-basis: auto;
+        flex-basis: auto;
     }
-
     .nav-item {
         border: none;
         display: block;
         margin-bottom: 0;
         padding: 0;
     }
-
-    .nav-item + li {
+    .nav-item+li {
         margin-left: 1rem;
     }
-
     .nav-link {
         font-size: .875rem;
         padding: 0;
     }
-
     .nav-menu {
         position: absolute;
         left: 75%;
         top: 33%;
     }
 }
+
 
 /*--------------------------------
 # Cards
@@ -591,7 +644,7 @@ th {
 }
 
 .card a:hover {
-    opacity: 0.8;
+    /* opacity: 0.8; */
 }
 
 .card-image {
@@ -611,6 +664,7 @@ th {
     font-size: .875rem;
 }
 
+
 /*--------------------------------
 # Pages
 --------------------------------*/
@@ -624,11 +678,11 @@ th {
 }
 
 @media (min-width: 768px) {
-
     .page-title {
         text-align: center;
     }
 }
+
 
 /* ----- Blog ----- */
 
@@ -659,7 +713,7 @@ th {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
-        align-items: center;
+    align-items: center;
     font-size: 0.95rem;
     text-decoration: none;
     text-transform: capitalize;
@@ -683,29 +737,28 @@ th {
 }
 
 @media (min-width: 768px) {
-
     .article {
         text-align: center;
     }
 }
 
-/* ----- Pagination ----- */
 
+/* ----- Pagination ----- */
 
 .pagination {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
-        align-items: center;
+    align-items: center;
     -ms-flex-pack: justify;
-        justify-content: space-between;
+    justify-content: space-between;
     margin-top: 3rem;
     margin-bottom: 1.5rem;
 }
 
 .pagination.flip {
     -ms-flex-direction: row-reverse;
-        flex-direction: row-reverse;
+    flex-direction: row-reverse;
 }
 
 .pagination .back-link {
@@ -719,12 +772,12 @@ th {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
-        align-items: center;
+    align-items: center;
     transition: all 0.3s ease-out;
 }
 
 .pagination-item:hover {
-    opacity: 0.75;
+    /* opacity: 0.75; */
 }
 
 .pagination-item svg {
@@ -737,6 +790,7 @@ th {
     border: 1px solid #ccc;
     fill: #ccc;
 }
+
 
 /*--------------------------------
 # Footer
