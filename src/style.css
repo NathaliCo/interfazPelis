@@ -540,10 +540,6 @@ th {
     padding-left: 0;
 }
 
-.genres {
-    font-weight: bold;
-}
-
 .nav-item {
     margin-bottom: 0;
     padding: 0.75rem 0;
@@ -809,4 +805,19 @@ th {
 
 .site-footer p {
     margin-bottom: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.ask-for {
+    margin-bottom: 2rem;
+}
+
+.a {
+    display: inline-block;
+    /* text-decoration: none; */
+    text-transform: uppercase;
+    color: black !important;
 }
