@@ -584,6 +584,7 @@ th {
         display: block;
         margin-left: 130%;
         margin-top: -32%;
+        margin-botton: 2rem;
     }
     .sticky {
         position: fixed;
