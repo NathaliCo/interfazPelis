@@ -584,7 +584,6 @@ th {
         display: block;
         margin-left: 130%;
         margin-top: -32%;
-
     }
     .sticky {
         position: fixed;
@@ -593,7 +592,7 @@ th {
         overflow-y: auto;
         max-width: 100%;
         max-height: 100vh;
-        margin-botton: 4rem;
+        margin-bottom: 2rem;
     }
 }
 
